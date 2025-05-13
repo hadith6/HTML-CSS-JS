@@ -1,0 +1,31 @@
+body {
+  background-color: gray;
+  color: white;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 600px;
+  font-size: 4em;
+  text-shadow: 3px 4px 5px black;
+}
+
+.slideshow {
+  max-width: 500px;
+  margin: 30px auto;
+  border: 10px solid black;
+  box-shadow: 4 0 20px black;
+}
+
+.slideshow img {
+  width: 120%;
+  height: auto;
+  display: none;
+}
+
+.slideshow img.active {
+  display: block;
+}
